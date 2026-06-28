@@ -547,6 +547,7 @@ dispatch messages
 */
 void CL_ParseGoldSrcServerMessage( sizebuf_t *msg )
 {
+	return;
 	size_t		bufStart, playerbytes;
 	int		cmd, param1;
 	const char	*s;
